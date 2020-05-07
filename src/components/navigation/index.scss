@@ -5,7 +5,7 @@
 nav{
     position: relative;
     color: red;
-    
+
     ul{
         display: none;
         border: solid black 2px;
@@ -13,6 +13,17 @@ nav{
         margin: 30px;
         position: absolute;
         list-style: none;
+        text-align: left;
+
+        li:hover{
+            
+            border-top: 2px solid transparent;
+            border-bottom: 2px solid transparent;
+            
+            border-left: 4px solid red;
+            font-weight: bold;
+        }
+
     }
 
     button{

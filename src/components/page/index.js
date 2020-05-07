@@ -1,10 +1,9 @@
 import React from 'react';
 import './index.scss';
+import Error from '../error';
 import {
-    BrowserRouter as Router,
     Switch,
     Route,
-    Link
 } from "react-router-dom";
 
 
@@ -12,17 +11,23 @@ function Page() {
   return (
 
  <div>
-  <Switch>
+  
+  
+<Switch>
+
+<Route exact path="/">
+<div> Home Sweet Home</div>
+</Route>x
 
 <Route path="/about">
-<div>About1</div>
+<div>About Us</div>
 </Route>
-<Route path="/users">
-<div>Users1</div>
+<Route path="/projects">
+<div>About our Projects</div>
+</Route>
 
-</Route>
-<Route path="/">
-<div> Home1</div>
+<Route path="*">
+        <Error/>
 </Route>
   </Switch>
 

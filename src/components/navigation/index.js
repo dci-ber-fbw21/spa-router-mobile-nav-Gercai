@@ -11,9 +11,9 @@ import {
 
 const toggleBar = function(){
 
-  console.log("oak");
-  
-
+  document.querySelector("ul").style.display==="none"
+  ?document.querySelector("ul").style.display="block"
+  :document.querySelector("ul").style.display="none";
 
 }
 
@@ -31,6 +31,9 @@ function Navigation() {
      </li>
      <li>
        <Link to="/projects">Projects</Link>
+     </li>
+     <li>
+       <Link to="/no-match">NoMatch</Link>
      </li>
         </ul>
     </nav>
