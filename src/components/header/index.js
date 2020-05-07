@@ -4,8 +4,6 @@ import Navigation from '../navigation'
 
 function App() {
   return (
-
-
 <article className="header">
 <div className="icon">
     <img src={require("../../images/bar.svg")} alt="" height="40" width="30"/>
