@@ -7,7 +7,9 @@ function App() {
 
 
 <article className="header">
-<div className="icon">Icon</div>
+<div className="icon">
+    <img src={require("../../images/bar.svg")} alt="" height="40" width="30"/>
+</div>
     <div className="icon2">
         <Navigation></Navigation>
     </div>
