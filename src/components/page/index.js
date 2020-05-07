@@ -1,6 +1,7 @@
 import React from 'react';
 import './index.scss';
 import Error from '../error';
+import {Helmet} from "react-helmet";
 import {
     Switch,
     Route,
@@ -12,17 +13,29 @@ function Page() {
  
 
 <div>
-  
 <Switch>
     <Route exact path="/">
-            <div> Home Sweet Home</div>
-    </Route>x
+    
+            <article className="page"> Home Sweet Home</article>
+    </Route>
 
     <Route path="/about">
-            <div>About Us</div>
+
+    <Helmet>
+    <title>About</title>
+    <meta name="description" content="Nested component" />
+    </Helmet>
+  
+
+    <article className="page">About Us</article>
     </Route>
     <Route path="/projects">
-            <div>About our Projects</div>
+
+    <Helmet>
+    <title>Project</title>
+    <meta name="description" content="Nested component" />
+    </Helmet>
+    <article className="page">About our Projects</article>
     </Route>
 
     <Route path="*">
