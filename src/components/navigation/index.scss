@@ -1,0 +1,26 @@
+.list{
+    
+}
+
+nav{
+    position: relative;
+    color: red;
+    
+    ul{
+        display: none;
+        border: solid black 2px;
+        padding: 20px;
+        margin: 30px;
+        position: absolute;
+        list-style: none;
+    }
+
+    button{
+        font-weight: bold;
+        border: none;
+        height: 20px;
+        width: 100px;
+    }
+
+
+}
