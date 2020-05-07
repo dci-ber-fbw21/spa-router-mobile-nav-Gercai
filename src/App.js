@@ -12,13 +12,10 @@ import {
 function App() {
   return (
     <div className="App">
-
-
-<Router>
-<Header></Header>
-<Page></Page>
-</Router>
-
+      <Router>
+        <Header></Header>
+        <Page></Page>
+      </Router>
     </div>
   );
 }

@@ -7,14 +7,10 @@ function App() {
 
 
 <article className="header">
-
 <div className="icon">Icon</div>
-
-<div className="icon2">
-<Navigation></Navigation>
-</div>
-
-
+    <div className="icon2">
+        <Navigation></Navigation>
+    </div>
 </article>
   );
 }

@@ -11,29 +11,25 @@ function Page() {
   return (
  
 
- <div>
+<div>
   
 <Switch>
+    <Route exact path="/">
+            <div> Home Sweet Home</div>
+    </Route>x
 
-<Route exact path="/">
-<div> Home Sweet Home</div>
-</Route>x
+    <Route path="/about">
+            <div>About Us</div>
+    </Route>
+    <Route path="/projects">
+            <div>About our Projects</div>
+    </Route>
 
-<Route path="/about">
-<div>About Us</div>
-</Route>
-<Route path="/projects">
-<div>About our Projects</div>
-</Route>
-
-<Route path="*">
-        <Error/>
-</Route>
-  </Switch>
-
- </div>
-
-
+    <Route path="*">
+            <Error/>
+    </Route>
+</Switch>
+</div>
   )
 }
 
