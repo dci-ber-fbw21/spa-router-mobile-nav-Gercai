@@ -1,0 +1,36 @@
+.list{
+    
+}
+
+nav{
+    position: relative;
+    color: red;
+
+    ul{
+        border: solid black 2px;
+        padding: 20px;
+        margin: 30px;
+        position: absolute;
+        list-style: none;
+        text-align: left;
+
+        li:hover{
+            
+            border-top: 2px solid transparent;
+            border-bottom: 2px solid transparent;
+            
+            border-left: 4px solid red;
+            font-weight: bold;
+        }
+
+    }
+
+    button{
+        font-weight: bold;
+        border: none;
+        height: 20px;
+        width: 100px;
+    }
+
+
+}
